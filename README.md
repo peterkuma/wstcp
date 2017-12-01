@@ -22,37 +22,41 @@ Examples
 
 **Server:**
 
-    const wstcpServer = require('wstcp').server;
+```js
+const wstcpServer = require('wstcp').server;
 
-    let server = wstcpServer({
-      port: 8000,
-      tcpPort: 10000,
-      remote: true
-    });
+let server = wstcpServer({
+  port: 8000,
+  tcpPort: 10000,
+  remote: true
+});
 
-    server.on('connection', () => console.log('server: connection'));
-    server.on('error', err => {
-      console.error(`server: error: ${err.message}`);
-    });
+server.on('connection', () => console.log('server: connection'));
+server.on('error', err => {
+  console.error(`server: error: ${err.message}`);
+});
+```
 
 Start a WebSocket server on port 8000 and listen on port 10000 for incoming
 TCP connections. TCP connections are forwarded to the client.
 
 **Client:**
 
-    const wstcpClient = require('wstcp').client;
+```js
+const wstcpClient = require('wstcp').client;
 
-    let client = wstcpClient({
-      url: 'ws://localhost:8000',
-      tcpPort: 22,
-      remote: true
-    );
+let client = wstcpClient({
+  url: 'ws://localhost:8000',
+  tcpPort: 22,
+  remote: true
+);
 
-    client.on('connection', () => console.log('client: connection'))
-    client.on('close', () => console.log('client: close'))
-    client.on('error', err => {
-      console.error(`client: error: ${err.message}`);
-    });
+client.on('connection', () => console.log('client: connection'))
+client.on('close', () => console.log('client: close'))
+client.on('error', err => {
+  console.error(`client: error: ${err.message}`);
+});
+```
 
 Connect to a WebSocket server at `ws://localhost:8000` and forward TCP
 connections from the server to port 22 on `localhost`.
@@ -61,67 +65,71 @@ connections from the server to port 22 on `localhost`.
 
 **Server:**
 
-    'use strict'
+```js
+'use strict'
 
-    const http = require('http');
-    const wstcpServer = require('wstcp').server;
+const http = require('http');
+const wstcpServer = require('wstcp').server;
 
-    let clients = {
-      'client-1': {
-        port: 10001,
-        key: '1234'
-      },
-      'client-2': {
-        port: 10002,
-        key: '1234'
-      }
+let clients = {
+  'client-1': {
+    port: 10001,
+    key: '1234'
+  },
+  'client-2': {
+    port: 10002,
+    key: '1234'
+  }
+}
+
+const httpServer = http.createServer();
+
+for (let name of Object.keys(clients)) {
+  let opts = clients[name];
+  function verify(info, cb) {
+    let key = info.req.headers['x-key'];
+    if (opts.key && key === opts.key) {
+      return cb(true);
     }
+    return cb(false);
+  }
+  let server = wstcpServer({
+    server: httpServer,
+    path: '/' + name,
+    tcpPort: opts.port,
+    remote: true,
+    verifyClient: verify
+  });
+  server.on('connection', () => console.log('server: connection'));
+  server.on('error', err => console.error(`server: error: ${err}`));
+}
 
-    const httpServer = http.createServer();
-
-    for (let name of Object.keys(clients)) {
-      let opts = clients[name];
-      function verify(info, cb) {
-        let key = info.req.headers['x-key'];
-        if (opts.key && key === opts.key) {
-          return cb(true);
-        }
-        return cb(false);
-      }
-      let server = wstcpServer({
-        server: httpServer,
-        path: '/' + name,
-        tcpPort: opts.port,
-        remote: true,
-        verifyClient: verify
-      });
-      server.on('connection', () => console.log('server: connection'));
-      server.on('error', err => console.error(`server: error: ${err}`));
-    }
-
-    httpServer.listen(8000);
+httpServer.listen(8000);
+```
 
 Listen on port 8000 for WebSocket connections on two paths: `/client-1`
 and `/client-2`. Clients are authenticated by `X-Key` HTTP header.
 
 **Client:**
 
-    const client = wstcpClient({
-      url: 'ws://localhost:8000/client-1',
-      tcpPort: 22,
-      remote: true,
-      headers: {
-        'X-Key': '1234'
-      }
-    });
+```js
+const client = wstcpClient({
+  url: 'ws://localhost:8000/client-1',
+  tcpPort: 22,
+  remote: true,
+  headers: {
+    'X-Key': '1234'
+  }
+});
 
-    client.on('connection', () => console.log('client: connection'))
-    client.on('close', () => console.log('client: close'))
-    client.on('error', err => console.error(`client: error: ${err.message}`));
+client.on('connection', () => console.log('client: connection'))
+client.on('close', () => console.log('client: close'))
+client.on('error', err => console.error(`client: error: ${err.message}`));
 
 Connect to the `ws://localhost:8000/client-1`, authenticating with a key
 passed in HTTP header `X-Key`. Listen on TCP port 22 and forward connections
 to the server.
+```
 
 API
 ---

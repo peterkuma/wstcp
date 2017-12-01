@@ -1,0 +1,23 @@
+{
+  "name": "wstcp",
+  "version": "1.0.0",
+  "description": "Client and server implementation of TCP forwarding over WebSocket",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.11.2",
+    "mux-demux": "^3.7.9",
+    "websocket-stream": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "tcp",
+    "forwarding",
+    "tunnel"
+  ],
+  "author": "Peter Kuma",
+  "license": "MIT"
+}

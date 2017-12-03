@@ -10,8 +10,8 @@ but it can forward any number of simultaneous TCP connections over the
 WebSocket link by multiplexing.
 
 wstcp can be used for exposing a client-side TCP server on the
-server-side (*remote forwarding*) or a server-side TCP server on
-the client side (*local forwarding*) when the client is behind a firewall,
+server-side (*local forwarding*) or a server-side TCP server on
+the client side (*remote forwarding*) when the client is behind a firewall,
 NAT, or has a dynamic IP address.
 
 wstcp relies on [MuxDemux](https://github.com/dominictarr/mux-demux)

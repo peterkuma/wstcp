@@ -8,17 +8,17 @@ wstcp server is limited to a single WebSocket client connection at a time,
 but it can forward any number of simultaneous TCP connections over the
 WebSocket link.
 
-wstcp can be used for e.g. exposing a client-side TCP server on the
+wstcp can be used for exposing a client-side TCP server on the
 server-side (remote forwarding) or a server-side TCP server on
-client side (local forwarding) when the client is behind a firewall,
+the client side (local forwarding) when the client is behind a firewall,
 NAT, or has a dynamic IP address.
 
 wstcp relies on [MuxDemux](https://github.com/dominictarr/mux-demux)
 and [websocket-stream](https://github.com/maxogden/websocket-stream),
 and it has a very compact implementation (less than 200 lines of code).
 
-Also see [wstcp-server](https://github.com/peterkuma/wstcp-server) and
-[wstcp-client](https://github.com/peterkuma/wstcp-client).
+<!-- Also see [wstcp-server](https://github.com/peterkuma/wstcp-server) and
+[wstcp-client](https://github.com/peterkuma/wstcp-client). -->
 
 Examples
 --------

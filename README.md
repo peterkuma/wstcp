@@ -1,8 +1,9 @@
 wstcp
 =====
 
-wstcp is a client and server implementation of TCP forwarding over WebSocket.
-wstcp supports local and remote port forwarding, similar to OpenSSH.
+wstcp is a node.js client and server implementation of TCP forwarding
+over WebSocket. wstcp supports local and remote port forwarding,
+similar to OpenSSH.
 
 wstcp server is limited to a single WebSocket client connection at a time,
 but it can forward any number of simultaneous TCP connections over the

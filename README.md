@@ -6,16 +6,20 @@ wstcp supports local and remote port forwarding, similar to OpenSSH.
 
 wstcp server is limited to a single WebSocket client connection at a time,
 but it can forward any number of simultaneous TCP connections over the
-WebSocket link.
+WebSocket link by multiplexing.
 
 wstcp can be used for exposing a client-side TCP server on the
-server-side (remote forwarding) or a server-side TCP server on
-the client side (local forwarding) when the client is behind a firewall,
+server-side (*remote forwarding*) or a server-side TCP server on
+the client side (*local forwarding*) when the client is behind a firewall,
 NAT, or has a dynamic IP address.
 
 wstcp relies on [MuxDemux](https://github.com/dominictarr/mux-demux)
 and [websocket-stream](https://github.com/maxogden/websocket-stream),
 and it has a very compact implementation (less than 200 lines of code).
+
+For security (wss) use an SSL-capable HTTP proxy server such as
+nginx in front of the wstcp server. The client supports connecting 
+to `wss://` URLs.
 
 <!-- Also see [wstcp-server](https://github.com/peterkuma/wstcp-server) and
 [wstcp-client](https://github.com/peterkuma/wstcp-client). -->

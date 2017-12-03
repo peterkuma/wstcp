@@ -124,7 +124,7 @@ and `/client-2`. Clients are authenticated by `X-Key` HTTP header.
 **Client:**
 
 ```js
-const wstcpServer = require('wstcp').client;
+const wstcpClient = require('wstcp').client;
 
 const client = wstcpClient({
   url: 'ws://localhost:8000/client-1',

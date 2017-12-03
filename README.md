@@ -42,7 +42,7 @@ server.on('error', err => {
 });
 ```
 
-Start a WebSocket server on port 8000 and listen on port 10000 for incoming
+Start a WebSocket server on port 8000 (HTTP) and listen on port 10000 for incoming
 TCP connections. TCP connections are forwarded to the client.
 
 **Client:**
@@ -63,16 +63,14 @@ client.on('error', err => {
 });
 ```
 
-Connect to a WebSocket server at `ws://localhost:8000` and forward TCP
-connections from the server to port 22 on `localhost`.
+Connect to a WebSocket server on `ws://localhost:8000` and forward incoming
+TCP connections from the server to port 22 on `localhost`.
 
 ### Multiple clients with authentication
 
 **Server:**
 
 ```js
-'use strict'
-
 const http = require('http');
 const wstcpServer = require('wstcp').server;
 
@@ -133,8 +131,8 @@ client.on('error', err => console.error(`client: error: ${err.message}`));
 ```
 
 Connect to `ws://localhost:8000/client-1`, authenticating with a key
-passed in HTTP header `X-Key`. Listen on TCP port 22 and forward connections
-to the server.
+passed in HTTP header `X-Key`. Listen on the TCP port 22 and forward
+connections to the server.
 
 API
 ---

@@ -1,6 +1,6 @@
 {
   "name": "wstcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client and server implementation of TCP forwarding over WebSocket",
   "main": "index.js",
   "dependencies": {

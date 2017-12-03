@@ -4,12 +4,14 @@ wstcp
 wstcp is a client and server implementation of TCP forwarding over WebSocket.
 wstcp supports local and remote port forwarding, similar to OpenSSH.
 
-wstcp server is limited to single WebSocket client connection at a time,
+wstcp server is limited to a single WebSocket client connection at a time,
 but it can forward any number of simultaneous TCP connections over the
 WebSocket link.
 
-wstcp can be used for e.g. exposing a TCP server on the client-side on the
-server when the client is behind a firewall or has a dynamic IP address.
+wstcp can be used for e.g. exposing a client-side TCP server on the
+server-side (remote forwarding) or a server-side TCP server on
+client side (local forwarding) when the client is behind a firewall,
+NAT, or has a dynamic IP address.
 
 wstcp relies on [MuxDemux](https://github.com/dominictarr/mux-demux)
 and [websocket-stream](https://github.com/maxogden/websocket-stream),
@@ -130,7 +132,7 @@ client.on('close', () => console.log('client: close'))
 client.on('error', err => console.error(`client: error: ${err.message}`));
 ```
 
-Connect to the `ws://localhost:8000/client-1`, authenticating with a key
+Connect to `ws://localhost:8000/client-1`, authenticating with a key
 passed in HTTP header `X-Key`. Listen on TCP port 22 and forward connections
 to the server.
 

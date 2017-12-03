@@ -17,6 +17,9 @@ wstcp relies on [MuxDemux](https://github.com/dominictarr/mux-demux)
 and [websocket-stream](https://github.com/maxogden/websocket-stream),
 and it has a very compact implementation (less than 200 lines of code).
 
+In contrast to OpenSSH, the client and server decide which TCP port
+to use on their side.
+
 For security (wss) use an SSL-capable HTTP proxy server such as
 nginx in front of the wstcp server. The client supports connecting 
 to `wss://` URLs.

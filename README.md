@@ -12,8 +12,11 @@ wstcp can be used for e.g. exposing a TCP server on the client-side on the
 server when the client is behind a firewall or has a dynamic IP address.
 
 wstcp relies on [MuxDemux](https://github.com/dominictarr/mux-demux)
- and [websocket-stream](https://github.com/maxogden/websocket-stream),
- and it has a very compact implementation (less than 200 lines of code).
+and [websocket-stream](https://github.com/maxogden/websocket-stream),
+and it has a very compact implementation (less than 200 lines of code).
+
+Also see [wstcp-server](https://github.com/peterkuma/wstcp-server) and
+[wstcp-client](https://github.com/peterkuma/wstcp-client).
 
 Examples
 --------
@@ -49,7 +52,7 @@ let client = wstcpClient({
   url: 'ws://localhost:8000',
   tcpPort: 22,
   remote: true
-);
+});
 
 client.on('connection', () => console.log('client: connection'))
 client.on('close', () => console.log('client: close'))
@@ -125,11 +128,11 @@ const client = wstcpClient({
 client.on('connection', () => console.log('client: connection'))
 client.on('close', () => console.log('client: close'))
 client.on('error', err => console.error(`client: error: ${err.message}`));
+```
 
 Connect to the `ws://localhost:8000/client-1`, authenticating with a key
 passed in HTTP header `X-Key`. Listen on TCP port 22 and forward connections
 to the server.
-```
 
 API
 ---
@@ -183,7 +186,7 @@ Connect to a wstcp server.
 - `tcpPort`: TCP port to connect to/listen on (required).
 - `tcpHostname`: TCP host to connect to/listen on.
 - `remote`: Remote port forwarding (default: `false`).
-` `pingInterval`: WebSocket ping interval in ms or 0 to disable
+- `pingInterval`: WebSocket ping interval in ms or 0 to disable
   (default: 10000).
 
 #### Events
@@ -207,6 +210,13 @@ Connect to a wstcp server.
 - `close`
 
     Emitted when connection to the server has been closed.
+
+Changelog
+---------
+
+### 1.0.1 (2017-12-02)
+
+- Initial release.
 
 License
 -------

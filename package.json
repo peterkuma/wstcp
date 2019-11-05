@@ -1,6 +1,6 @@
 {
   "name": "wstcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Client and server implementation of TCP forwarding over WebSocket",
   "main": "index.js",
   "dependencies": {
@@ -16,7 +16,10 @@
     "websocket",
     "tcp",
     "forwarding",
-    "tunnel"
+    "tunnel",
+    "networking",
+    "server",
+    "client"
   ],
   "author": "Peter Kuma",
   "license": "MIT"

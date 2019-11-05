@@ -226,6 +226,10 @@ Connect to a wstcp server.
 Changelog
 ---------
 
+### 1.0.3 (2019-11-05)
+
+- Improved documentation.
+
 ### 1.0.2 (2017-12-03)
 
 - Improved documentation.

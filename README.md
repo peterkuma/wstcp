@@ -25,8 +25,10 @@ For security (wss) use an SSL-capable HTTP proxy server such as
 nginx in front of the wstcp server. The client supports connecting 
 to `wss://` URLs.
 
-<!-- Also see [wstcp-server](https://github.com/peterkuma/wstcp-server) and
-[wstcp-client](https://github.com/peterkuma/wstcp-client). -->
+The command-line tools
+[wstcp-server](https://github.com/peterkuma/wstcp-server) and
+[wstcp-client](https://github.com/peterkuma/wstcp-client) use wstcp
+to create a fail-safe port forwarding between a client and a server.
 
 Examples
 --------

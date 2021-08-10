@@ -22,7 +22,7 @@ In contrast to OpenSSH, the client and server decide which TCP port
 to use on their side.
 
 For security (wss) use an SSL-capable HTTP proxy server such as
-nginx in front of the wstcp server. The client supports connecting 
+nginx in front of the wstcp server. The client supports connecting
 to `wss://` URLs.
 
 The command-line tools
@@ -225,6 +225,10 @@ Connect to a wstcp server.
 
 Changelog
 ---------
+
+### 1.0.4 (2021-08-10)
+
+- Stability improvements on lossy links.
 
 ### 1.0.3 (2019-11-05)
 

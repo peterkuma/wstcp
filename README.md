@@ -30,6 +30,8 @@ The command-line tools
 [wstcp-client](https://github.com/peterkuma/wstcp-client) use wstcp
 to create a fail-safe port forwarding between a client and a server.
 
+![Diagram](diagram.png)
+
 Examples
 --------
 

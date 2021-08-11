@@ -30,7 +30,7 @@ The command-line tools
 [wstcp-client](https://github.com/peterkuma/wstcp-client) use wstcp
 to create a fail-safe port forwarding between a client and a server.
 
-![Diagram](diagram.png)
+![Diagram](https://raw.githubusercontent.com/peterkuma/wstcp/master/diagram.png)
 
 Examples
 --------
@@ -228,7 +228,7 @@ Connect to a wstcp server.
 Changelog
 ---------
 
-### 1.0.5 (2021-08-11)
+### 1.0.6 (2021-08-11)
 
 - Fix hanging up of WS connection when TCP client cannot connect.
 

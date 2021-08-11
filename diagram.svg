@@ -5,11 +5,38 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
    viewBox="0 0 139.64378 62.865129"
    height="62.865128mm"
-   width="139.64378mm">
+   width="139.64378mm"
+   sodipodi:docname="diagram.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="/d/prj/wstcp/diagram.png"
+   inkscape:export-xdpi="291.03"
+   inkscape:export-ydpi="291.03">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     id="namedview104"
+     showgrid="false"
+     inkscape:zoom="1.986528"
+     inkscape:cx="238.00161"
+     inkscape:cy="55.209916"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
   <defs
      id="defs2">
     <marker
@@ -289,290 +316,294 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(-26.481474,-12.012256)"
-     id="layer1">
-    <text
-       id="text817"
-       y="21.697126"
-       x="32.944965"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="21.697126"
-         x="32.944965"
-         id="tspan815">TCP client</tspan></text>
-    <text
-       id="text821"
-       y="21.684637"
-       x="151.67755"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="21.684637"
-         x="151.67755"
-         id="tspan819">TCP server</tspan></text>
-    <text
-       id="text825"
-       y="21.697126"
-       x="70.989059"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="21.697126"
-         x="70.989059"
-         id="tspan823">WSTCP client</tspan></text>
-    <text
-       id="text829"
-       y="21.684637"
-       x="110.19787"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="21.684637"
-         x="110.19787"
-         id="tspan827">WSTCP server</tspan></text>
-    <rect
-       y="23.316099"
-       x="28.731474"
-       height="17.238884"
-       width="17.238884"
-       id="rect844"
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       y="23.310516"
-       x="67.626648"
-       height="17.250048"
-       width="17.250048"
-       id="rect846"
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.48895282;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       y="23.305231"
-       x="106.92296"
-       height="17.26062"
-       width="17.26062"
-       id="rect848"
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47838017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       y="23.301832"
-       x="146.62206"
-       height="17.267418"
-       width="17.267418"
-       id="rect850"
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47158217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1291)"
-       d="M 46.220358,31.935541 H 66.645665"
-       id="path854" />
-    <path
-       id="path856"
-       d="m 124.42277,31.935541 h 21.21289"
-       style="fill:none;stroke:#2d2d2d;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)" />
-    <text
-       id="text1343"
-       y="35.386105"
-       x="89.202377"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="35.386105"
-         x="89.202377"
-         id="tspan1341">ws://example.org</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="91.777748"
-       y="29.314661"
-       id="text1347"><tspan
-         id="tspan1345"
-         x="91.777748"
-         y="29.314661"
-         style="stroke-width:0.26458332">Websocket</tspan></text>
-    <text
-       id="text1351"
-       y="29.303896"
-       x="133.82759"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="29.303896"
-         x="133.82759"
-         id="tspan1349">TCP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="55.114048"
-       y="29.303896"
-       id="text1409"><tspan
-         id="tspan1407"
-         x="55.114048"
-         y="29.303896"
-         style="stroke-width:0.26458332">TCP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="91.126755"
-       y="15.273161"
-       id="text3967"><tspan
-         id="tspan3965"
-         x="91.126755"
-         y="15.273161"
-         style="stroke-width:0.26458332">LOCAL MODE</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="32.944965"
-       y="53.76947"
-       id="text6405"><tspan
-         id="tspan6403"
-         x="32.944965"
-         y="53.76947"
-         style="stroke-width:0.26458332">TCP server</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="151.14305"
-       y="53.756981"
-       id="text6409"><tspan
-         id="tspan6407"
-         x="151.14305"
-         y="53.756981"
-         style="stroke-width:0.26458332">TCP client</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="70.989059"
-       y="53.76947"
-       id="text6413"><tspan
-         id="tspan6411"
-         x="70.989059"
-         y="53.76947"
-         style="stroke-width:0.26458332">WSTCP client</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="110.19787"
-       y="53.756981"
-       id="text6417"><tspan
-         id="tspan6415"
-         x="110.19787"
-         y="53.756981"
-         style="stroke-width:0.26458332">WSTCP server</tspan></text>
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6419"
-       width="17.238884"
-       height="17.238884"
-       x="28.731474"
-       y="55.388443" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.48895282;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6421"
-       width="17.250048"
-       height="17.250048"
-       x="67.626648"
-       y="55.382858" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47838017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6423"
-       width="17.26062"
-       height="17.26062"
-       x="106.92296"
-       y="55.377575" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47158217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6427"
-       width="17.267418"
-       height="17.267418"
-       x="146.62206"
-       y="55.374176" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="89.202377"
-       y="67.45845"
-       id="text6437"><tspan
-         id="tspan6435"
-         x="89.202377"
-         y="67.45845"
-         style="stroke-width:0.26458332">ws://example.org</tspan></text>
-    <text
-       id="text6441"
-       y="61.387005"
-       x="91.777748"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="61.387005"
-         x="91.777748"
-         id="tspan6439">Websocket</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="133.82759"
-       y="61.37624"
-       id="text6445"><tspan
-         id="tspan6443"
-         x="133.82759"
-         y="61.37624"
-         style="stroke-width:0.26458332">TCP</tspan></text>
-    <text
-       id="text6449"
-       y="61.37624"
-       x="55.114048"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="61.37624"
-         x="55.114048"
-         id="tspan6447">TCP</tspan></text>
-    <text
-       id="text6457"
-       y="47.345505"
-       x="90.329208"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="47.345505"
-         x="90.329208"
-         id="tspan6455">REMOTE MODE</tspan></text>
-    <rect
-       style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.21594113;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect7941"
-       width="18.754168"
-       height="3.1884258"
-       x="85.114929"
-       y="30.341328" />
-    <path
-       id="path8899"
-       d="m 106.89435,31.935543 -3.5765,-2.964379 5e-5,5.928753 3.57645,-2.964374"
-       style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.32184926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       id="path1765"
-       d="M 67.382173,31.935541 H 124.42277"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.9,0.9;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       y="62.41367"
-       x="85.114929"
-       height="3.1884258"
-       width="18.202925"
-       id="rect10923"
-       style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.21594115;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker11083)"
-       d="M 67.497923,64.007882 H 47.072616"
-       id="path10925" />
-    <path
-       id="path10927"
-       d="M 146.48792,64.007882 H 125.27503"
-       style="fill:none;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10935)" />
-    <path
-       id="path10929"
-       d="m 106.71895,64.007885 -3.5765,-2.964379 5e-5,5.928753 3.57645,-2.964374"
-       style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.32184926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       id="path10931"
-       d="M 67.382173,64.007882 H 124.42277"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.9, 0.9;stroke-dashoffset:0;stroke-opacity:1" />
-  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="6.4634914"
+     y="9.6848707"
+     id="text817"><tspan
+       id="tspan815"
+       x="6.4634914"
+       y="9.6848707"
+       style="stroke-width:0.26458332">TCP client</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="125.19608"
+     y="9.6723814"
+     id="text821"><tspan
+       id="tspan819"
+       x="125.19608"
+       y="9.6723814"
+       style="stroke-width:0.26458332">TCP server</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="44.507584"
+     y="9.6848707"
+     id="text825"><tspan
+       id="tspan823"
+       x="44.507584"
+       y="9.6848707"
+       style="stroke-width:0.26458332">WSTCP client</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="83.716393"
+     y="9.6723814"
+     id="text829"><tspan
+       id="tspan827"
+       x="83.716393"
+       y="9.6723814"
+       style="stroke-width:0.26458332">WSTCP server</tspan></text>
+  <rect
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect844"
+     width="17.238884"
+     height="17.238884"
+     x="2.25"
+     y="11.303843" />
+  <rect
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.48895282;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect846"
+     width="17.250048"
+     height="17.250048"
+     x="41.145172"
+     y="11.298261" />
+  <rect
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47838017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect848"
+     width="17.26062"
+     height="17.26062"
+     x="80.441483"
+     y="11.292975" />
+  <rect
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47158217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect850"
+     width="17.267418"
+     height="17.267418"
+     x="120.14058"
+     y="11.289577" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path854"
+     d="M 19.738884,19.923285 H 40.164191"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1291)" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
+     d="M 97.941296,19.923285 H 119.15419"
+     id="path856" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="62.720901"
+     y="23.373848"
+     id="text1343"><tspan
+       id="tspan1341"
+       x="62.720901"
+       y="23.373848"
+       style="stroke-width:0.26458332">ws://example.org</tspan></text>
+  <text
+     id="text1347"
+     y="17.302404"
+     x="65.296272"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="17.302404"
+       x="65.296272"
+       id="tspan1345">Websocket</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="107.34612"
+     y="17.291639"
+     id="text1351"><tspan
+       id="tspan1349"
+       x="107.34612"
+       y="17.291639"
+       style="stroke-width:0.26458332">TCP</tspan></text>
+  <text
+     id="text1409"
+     y="17.291639"
+     x="28.632574"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="17.291639"
+       x="28.632574"
+       id="tspan1407">TCP</tspan></text>
+  <text
+     id="text3967"
+     y="3.260905"
+     x="60.85603"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="3.260905"
+       x="60.85603"
+       id="tspan3965">LOCAL FORWARDING</tspan></text>
+  <text
+     id="text6405"
+     y="41.757214"
+     x="6.4634914"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="41.757214"
+       x="6.4634914"
+       id="tspan6403">TCP server</tspan></text>
+  <text
+     id="text6409"
+     y="41.744724"
+     x="124.66158"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="41.744724"
+       x="124.66158"
+       id="tspan6407">TCP client</tspan></text>
+  <text
+     id="text6413"
+     y="41.757214"
+     x="44.507584"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="41.757214"
+       x="44.507584"
+       id="tspan6411">WSTCP client</tspan></text>
+  <text
+     id="text6417"
+     y="41.744724"
+     x="83.716393"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="41.744724"
+       x="83.716393"
+       id="tspan6415">WSTCP server</tspan></text>
+  <rect
+     y="43.376186"
+     x="2.25"
+     height="17.238884"
+     width="17.238884"
+     id="rect6419"
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <rect
+     y="43.370602"
+     x="41.145172"
+     height="17.250048"
+     width="17.250048"
+     id="rect6421"
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.48895282;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <rect
+     y="43.365318"
+     x="80.441483"
+     height="17.26062"
+     width="17.26062"
+     id="rect6423"
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47838017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <rect
+     y="43.361919"
+     x="120.14058"
+     height="17.267418"
+     width="17.267418"
+     id="rect6427"
+     style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.47158217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <text
+     id="text6437"
+     y="55.446194"
+     x="62.720901"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="55.446194"
+       x="62.720901"
+       id="tspan6435">ws://example.org</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="65.296272"
+     y="49.374748"
+     id="text6441"><tspan
+       id="tspan6439"
+       x="65.296272"
+       y="49.374748"
+       style="stroke-width:0.26458332">Websocket</tspan></text>
+  <text
+     id="text6445"
+     y="49.363983"
+     x="107.34612"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.26458332"
+       y="49.363983"
+       x="107.34612"
+       id="tspan6443">TCP</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="28.632574"
+     y="49.363983"
+     id="text6449"><tspan
+       id="tspan6447"
+       x="28.632574"
+       y="49.363983"
+       style="stroke-width:0.26458332">TCP</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.39999998;font-family:'Istok Web';-inkscape-font-specification:'Istok Web';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="60.058491"
+     y="35.333248"
+     id="text6457"><tspan
+       id="tspan6455"
+       x="60.058491"
+       y="35.333248"
+       style="stroke-width:0.26458332">REMOTE FORWARDING</tspan></text>
+  <rect
+     y="18.329071"
+     x="58.633453"
+     height="3.1884258"
+     width="18.754168"
+     id="rect7941"
+     style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.21594113;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.32184926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 80.412876,19.923287 -3.5765,-2.964379 5e-5,5.928753 3.57645,-2.964374"
+     id="path8899" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.9, 0.9;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 40.900699,19.923285 H 97.941296"
+     id="path1765" />
+  <rect
+     style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.21594115;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect10923"
+     width="18.202925"
+     height="3.1884258"
+     x="58.633453"
+     y="50.401413" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path10925"
+     d="M 41.016449,51.995626 H 20.591142"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker11083)" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker10935)"
+     d="M 120.00645,51.995626 H 98.793556"
+     id="path10927" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.32184926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 80.237476,51.995629 -3.5765,-2.964379 5e-5,5.928753 3.57645,-2.964374"
+     id="path10929" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#2d2d2d;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.9, 0.9;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 40.900699,51.995626 H 97.941296"
+     id="path10931" />
 </svg>

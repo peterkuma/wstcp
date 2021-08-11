@@ -228,6 +228,10 @@ Connect to a wstcp server.
 Changelog
 ---------
 
+### 1.0.5 (2021-08-11)
+
+- Fix hanging up of WS connection when TCP client cannot connect.
+
 ### 1.0.4 (2021-08-10)
 
 - Stability improvements on lossy links.

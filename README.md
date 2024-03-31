@@ -228,6 +228,10 @@ Connect to a wstcp server.
 Changelog
 ---------
 
+### 1.0.7 (2024-03-31)
+
+- Fix the tcpHostname option of the wstcp client (reported by [dotnsf](https://github.com/dotnsf)).
+
 ### 1.0.6 (2021-08-11)
 
 - Fix hanging up of WS connection when TCP client cannot connect.
